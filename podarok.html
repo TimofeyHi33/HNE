@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Поздравление с Новым годом</title>
+  <style>
+  .styled-quote {
+  font-family: 'Arial', sans-serif;
+  background-color: rgba(220, 220, 220, 0.1);
+  border-left: 5px solid rgba(220, 220, 220, 0.2);
+  margin: 20px 0;
+  padding: 10px 20px;
+  text-align: left;
+}
+  
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white; /* Изменение цвета текста для контраста с фоном */
+    }
+    .background {
+      background-image: url('https://3.downloader.disk.yandex.ru/preview/11193945da94b18dd030ce917cfa18876b967b65d5c2dc362d74ae8a8502b2a8/inf/AkhIz6l6lWFKopo5POOpQjuUQV5eCXuIfIZbmZeJOzRMoBGZerpaoh_DQHHhyQ6Oe-FhHwwswkpT86jDW4I0MQ%3D%3D?uid=1412317723&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1412317723&tknv=v2&size=1281x632'); /* Замените на ссылку на ваше изображение */
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+    }
+    .content {
+      background-color: rgba(0, 0, 0, 0.6); /* Прозрачный фон для контента */
+    }
+    .greeting {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 0 #fff;
+    }
+    
+    /* Стили для анимации печатания текста */
+.typing-animation {
+  overflow: hidden; /* Скрыть текст за пределами блока */
+  white-space: nowrap; /* Текст в одну строку */
+  border-right: 2px solid transparent; /* Создание иллюзии мигающего курсора */
+  animation: typing 4s steps(40, end) infinite;
+  display: inline-block; /* Сделать блоком для применения ширины */
+}
+
+/* Анимация для печатания текста */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+    
+    .handmade {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="content">
+      <div class="greeting">
+        <h1 class="typing-animation">С Новым годом!</h1>
+        <p>Пусть наступающий год принесет вам много радости и успехов!</p>
+      </div>
+      <blockquote class="styled-quote">
+      "Лучший подарок - это подарок, сделанный своими руками"
+      </blockquote>
+      <div class="handmade">
+        <p>Сделано своими руками с помощью ChatGPT и StableDiffusion</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
